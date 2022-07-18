@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve":"firebase emulators:start",
+    "serve": "firebase emulators:start",
     "deploy": "firebase deply --only hosting",
     "dev": "next dev",
     "build": "next build && next export",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "next": "12.2.2",
+    "next-images": "^1.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
