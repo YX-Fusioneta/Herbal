@@ -9,6 +9,12 @@ module.exports = {
     loader: 'akamai',
     path: '',
   },
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
+  },
+
 }
 
 module.exports = nextConfig
